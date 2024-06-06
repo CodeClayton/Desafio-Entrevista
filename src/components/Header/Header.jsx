@@ -18,13 +18,13 @@ export default function Header(){
                 <a href='/'>
                     <img src='/img/logo.png' className='logo'></img>
                 </a>
-                <div className='searchBox'>
-                    <i class="bi bi-search"></i>
-                    <p className='textSearchBox'>Pesquise por um curso</p>
+                <div className="searchBox">
+                    <i className="bi bi-search"></i>
+                    <input className='inputBox' type="text" placeholder='Pesquise por um curso'/>
                 </div>
 
                 <a href='#' className='headerLink'>
-                    Nossas Áreas <i class="bi bi-chevron-down"></i>
+                    Nossas Áreas <i className="bi bi-chevron-down"></i>
                 </a>
 
                 <a href='#' className='headerLink'>Vidas Transformadas</a>

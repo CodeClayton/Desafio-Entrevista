@@ -1,11 +1,13 @@
 .navTopBar{
     width: 100%;
     height: 59px;
-    background-color: #000000d8;
+    background: #000000c7;
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 0 30px;
+    position: absolute;
+    top: 0;
 }
 
 .navLink{
@@ -29,6 +31,8 @@ header{
     justify-content: space-around;
     background-color: #49494966;
     backdrop-filter: blur(10px);
+    position: absolute;
+    top: 59px;
 }
 
 .logo{
@@ -45,7 +49,6 @@ header{
     gap: 10px;
     padding: 8px;
     border-radius: 5px;
-    cursor: pointer;
 
 }
 
@@ -54,9 +57,12 @@ header{
     font-size: 15px;
 }
 
-.textSearchBox{
+.inputBox{
+    width: 90%;
+    height: 90%;
     font-size: 17px;
-    color: #666464;
+    outline: none;
+    border: none;
 }
 
 .headerLink{
@@ -66,4 +72,3 @@ header{
     cursor: pointer;
     text-decoration: none;
 }
-

@@ -9,4 +9,6 @@
     color: white;
     background-color: transparent;
     text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 400;
 }
