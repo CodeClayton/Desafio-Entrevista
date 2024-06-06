@@ -1,0 +1,12 @@
+.buttonLink{
+    width: 178px;
+    height: 39px;
+    font-family: "Krona One", sans-serif;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+    background-color: transparent;
+    text-transform: uppercase;
+}

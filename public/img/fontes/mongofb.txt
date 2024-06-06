@@ -1,0 +1,26 @@
+mongodb+srv://devclayton:<password>@unica-depoimentos.xzfk0eo.mongodb.net/?retryWrites=true&w=majority&appName=Unica-Depoimentos
+
+
+
+
+const mongoose = require('mongoose');
+
+const DepoimentoSchema = new mongoose.Schema({
+  nome: { type: String, required: true },
+  foto: { type: String, required: true },
+  cargo: { type: String, required: true },
+  depoimento: { type: String, required: true }
+});
+
+const Depoimento = mongoose.model('Depoimento', DepoimentoSchema);
+
+module.exports = {
+  async buscarDepoimentos() {
+    try {
+      const depoimentos = await Depoimento.find();
+      return depoimentos;
+    } catch (error) {
+      throw new Error('Erro ao buscar depoimentos');
+    }
+  }
+};
