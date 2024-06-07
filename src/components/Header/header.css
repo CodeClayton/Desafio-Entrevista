@@ -10,6 +10,16 @@
     top: 0;
 }
 
+.navMobile{
+    display: none;
+    width: 100%;
+    background: #000000c7;
+    height: 35px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
 .navLink{
     text-decoration: none;
     color: white;
@@ -38,6 +48,18 @@ header{
 .logo{
     width: 182px;
     height: auto;
+}
+
+.logoMob{
+    display: none;
+    width: 71px;
+    height: auto;
+}
+
+.bi-chevron-down{
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
 }
 
 .searchBox{
@@ -71,4 +93,50 @@ header{
     font-weight: 500;
     cursor: pointer;
     text-decoration: none;
+}
+
+
+.headerMob{
+    display: none;
+    width: 100%;
+    height: 48px;
+    background-color: #49494966;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 35px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.searchBox.Mob{
+    display: none;
+    width: 70%;
+    height: 22px;
+    padding-right: 10px;
+    border-radius: 3px;
+}
+
+.inputBox.Mob{
+    display: none;
+    font-size: 12px;
+    height: 22px;
+}
+
+
+.hamburguerMenu {
+    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 22px;
+    cursor: pointer;
+}
+
+.bar {
+    display: none;
+    width: 30px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
 }
