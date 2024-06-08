@@ -12,7 +12,7 @@ export default function MainContent(){
     return (
         <>
             <main>
-                <img src="/img/body-img.png" className="imgBody"></img>
+                <img src="/img/bodyImg.png" className="imgBody"></img>
 
                 <SloganBar text="Criando Hoje o seu Amanhã"/>
 
