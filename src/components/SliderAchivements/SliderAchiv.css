@@ -95,5 +95,6 @@ body.darkTheme .swiper-button-next {
 @media (max-width: 600px){
     .slideArchivements{
         width: 168px;
+        font-size: 13px;
     }
 }
