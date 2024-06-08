@@ -107,6 +107,7 @@ header{
 .bi-search{
     transform: rotate(90deg);
     font-size: 15px;
+    color: black;
 }
 
 .inputBox{
