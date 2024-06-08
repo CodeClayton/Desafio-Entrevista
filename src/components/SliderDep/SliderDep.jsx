@@ -16,6 +16,7 @@ export default function SliderDep() {
     const fetchUsers = async () => {
       const response = await fetch('/api/getDeps');
       const data = await response.json();
+      console.log(data)
       setUsers(data);
     };
 

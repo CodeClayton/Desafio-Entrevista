@@ -15,19 +15,26 @@ export default function SliderAchivements() {
 
 
   //Funcao para deixar o carrousel responsivo
-  useLayoutEffect(() => {
-    function updateSlidesPerView() {
-      setSlidesPerView(window.innerWidth <= 1300 ? 2 : 3);
-    }
+    useLayoutEffect(() => {
+        function updateSlidesPerView() {
+            if(window.innerWidth < 1300 && window.innerWidth > 600){
+                return setSlidesPerView(2)
+            }else if( window.innerWidth < 600){
+                return setSlidesPerView(1)
+            }else{
+                setSlidesPerView(3)
+            }
+                
+        }
 
     updateSlidesPerView();
 
     window.addEventListener('resize', updateSlidesPerView);
 
     return () => {
-      window.removeEventListener('resize', updateSlidesPerView);
+        window.removeEventListener('resize', updateSlidesPerView);
     };
-  }, []);
+}, []);
 
 
   return (

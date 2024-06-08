@@ -90,3 +90,10 @@ body.darkTheme .swiper-button-prev,
 body.darkTheme .swiper-button-next {
     color: #fff;
 }
+
+
+@media (max-width: 600px){
+    .slideArchivements{
+        width: 168px;
+    }
+}
