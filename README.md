@@ -26,6 +26,9 @@ Este projeto é um site institucional para a Faculdade Única, desenvolvido com 
 
 
 ## Como Usar
+[Clique aqui para acessar](https://desafio-prominas-ten.vercel.app/)
+
+ou
 
 Siga os passos abaixo para configurar e executar o projeto localmente:
 
@@ -40,5 +43,7 @@ Siga os passos abaixo para configurar e executar o projeto localmente:
 2. Rode o projeto:
    ```sh
    npm run dev ( ESTARA DISPONIVEL EM LOCALHOST:3000 )   
+
+
 
    
