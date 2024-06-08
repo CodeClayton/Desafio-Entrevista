@@ -1,0 +1,16 @@
+.sloganBar{
+    width: 100%;
+    height: 189px;
+    background-position: bottom;
+    object-fit: cover;
+    margin-top: -25px;
+    background-image: url("/img/sloganBar.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sloganBar h2{
+    text-transform: uppercase;
+    color: white;
+}

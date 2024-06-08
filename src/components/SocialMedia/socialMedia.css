@@ -1,0 +1,141 @@
+.socialMedia{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 80px auto;
+    gap: 80px;
+}
+
+.social{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.containerIcons{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.containerIcons i{
+    font-size: 40px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.containerIcons i:hover{
+    color:#7500FF;
+}
+
+.downloadApp{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.containerApps{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.mecVerification{
+    width: 36%;
+    display: flex;
+    align-items: center;
+}
+
+.containerKnowMore{
+    width: 100%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 40px 0px;
+}
+
+.knowMore{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.containerCourses{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.course h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.course p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.others{
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.others a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+body.darkTheme .socialMedia,body.darkTheme .containerKnowMore,body.darkTheme .others a{
+    color: white;
+    border-color: white;
+}
+
+.appGooglePlay,.appIosStore{
+    background-color: white;
+    border-radius: 8px;
+}
+
+
+@media (max-width: 1200px) {
+    .containerIcons{
+        display: flex;
+        gap: 20px;
+    }
+    .containerApps{
+        flex-direction: column;
+    }
+
+    .socialMedia{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .containerCourses{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .others{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+}

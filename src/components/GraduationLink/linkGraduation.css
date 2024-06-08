@@ -1,0 +1,20 @@
+.linkGraduation{
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+}
+
+body.darkTheme .linkGraduation{
+    color: white;
+}
+
+.linkGraduation:hover{
+    color:#7500FF;
+}
+
+body.darkTheme .linkGraduation:hover{
+    color:#7500FF;
+}

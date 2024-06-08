@@ -1,0 +1,92 @@
+
+.slider-container {
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.swiper {
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.slideArchivements{
+    width: 80%;
+    max-width: 349px;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 6px;
+} 
+
+.slideArchivements p{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Krona One", sans-serif;
+    margin-bottom: 15%;
+    padding: 0px 15px;
+    text-transform: uppercase;
+}
+
+.slide1{
+    background: url("/img/sliderImages/predioCapa.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slide2{
+    background: url("/img/sliderImages/contratosCapa.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slide3{
+    background: url("/img/sliderImages/estagioCapa.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slide4{
+    background: url("/img/sliderImages/professoresCapa.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.slider-container .swiper-button-prev,.slider-container .swiper-button-next{
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+}
+
+.slider-container .swiper-button-prev{
+    left: 10px;
+}
+
+.swiper-button-next:after{
+    right: 10px;
+}
+
+.swiper-scrollbar-drag,.swiper-scrollbar{
+    display: none;
+}
+
+body.darkTheme .swiper-button-prev,
+body.darkTheme .swiper-button-next {
+    color: #fff;
+}

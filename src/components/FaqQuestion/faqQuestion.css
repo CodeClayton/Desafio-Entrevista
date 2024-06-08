@@ -1,0 +1,24 @@
+.faqItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    border-bottom: 2px solid black;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+body.darkTheme .faqItem{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.textFaq{
+    text-indent: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.bi-x-square{
+    font-size: 21px;
+    margin-right: 20px;
+}

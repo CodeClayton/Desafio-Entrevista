@@ -1,0 +1,176 @@
+.containerCarrousel {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    z-index: 1;
+
+}
+
+.slideContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.InnerAvaliation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: #A68BFF66;
+    box-shadow: 10.71px 10.71px 21.42px 0px #00000033;
+    height: 430px; 
+    width:90%;
+    max-width: 420px;
+    z-index: 5;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.imageFeedback {
+    max-width: 300px;
+    width: 80%; 
+    height: auto; 
+    margin-bottom: 20px;
+}
+
+.slideContent .name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: -15px;
+}
+
+.slideContent .position {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoPerson{
+    display: flex;
+    margin-left: 15px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.perfilDep{
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.evaluations{
+    margin-bottom: 30px;
+}
+
+.slideContent .evaluations {
+    font-size: 16px;
+    color: #333;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+}
+
+.swiper-button-prev {
+    margin-left: -10px;
+}
+
+.swiper-button-next:after {
+    margin-left: 10px;
+}
+
+.swiper-scrollbar-drag,
+.swiper-scrollbar {
+    display: none;
+}
+
+body.darkTheme .swiper-button-prev,
+body.darkTheme .swiper-button-next {
+    color: #fff;
+}
+
+.containerDep {
+    display: none;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+@media (max-width: 1200px) {
+    .containerCarrousel {
+        display: none; 
+    }
+
+    .h2Desktop{
+        display: none;
+    }
+
+    .containerDep{
+        display: block;
+    }
+
+    .depH2{
+        display: block;
+    }
+}
+
+
+/* MOB SLIDER */
+
+
+.depH2{
+    display: none;
+}
+
+.sliderDepMob {
+    width: 80%;
+    margin: 0 auto;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fullScreenSlide {
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    max-height: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    background: #A68BFF66;
+    box-shadow: 10.71px 10.71px 21.42px 0px #00000033;
+}
+
+.textDepoiment{
+    color: white;
+    font-weight: 300;
+    font-size: 10px;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.infoPersonMob{
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 12px;
+}
