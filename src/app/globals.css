@@ -14,6 +14,7 @@
 
 body{
   background-color: white;
+  color: black;
   width: 100%;
   min-height: 100vh;
   transition: .3s;
@@ -23,3 +24,4 @@ body.darkTheme{
   background-color: black;
   color: white;
 }
+

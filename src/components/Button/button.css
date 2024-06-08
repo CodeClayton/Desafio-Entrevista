@@ -11,4 +11,9 @@
     text-transform: uppercase;
     cursor: pointer;
     font-weight: 400;
+    transition: .3s;
+}
+
+.buttonLink:hover{
+    border-color:#7500FF;
 }
