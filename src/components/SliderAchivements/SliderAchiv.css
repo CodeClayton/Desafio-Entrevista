@@ -74,13 +74,6 @@
     font-size: 26px;
 }
 
-.slider-container .swiper-button-prev{
-    left: 10px;
-}
-
-.swiper-button-next:after{
-    right: 10px;
-}
 
 .swiper-scrollbar-drag,.swiper-scrollbar{
     display: none;
@@ -93,8 +86,10 @@ body.darkTheme .swiper-button-next {
 
 
 @media (max-width: 600px){
-    .slideArchivements{
-        width: 168px;
-        font-size: 13px;
+    .slideArchivements p{
+        width: 60%;
+        margin: 0 auto 30% auto;
+        font-size: 11px;
+        padding: 0;
     }
 }

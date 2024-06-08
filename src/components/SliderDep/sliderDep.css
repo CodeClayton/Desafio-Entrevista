@@ -85,11 +85,11 @@
 }
 
 .swiper-button-prev {
-    margin-left: -10px;
+    margin-left: -13px;
 }
 
 .swiper-button-next:after {
-    margin-left: 10px;
+    margin-right: -27px;
 }
 
 .swiper-scrollbar-drag,
